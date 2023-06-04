@@ -1,0 +1,108 @@
+/* 全局 */
+body { 
+    background-color: #efe5d0;
+    font-family:      Georgia, "Times New Roman", Times, serif;
+    font-size:        small;
+    margin:           0px;
+    font:             small/1.6em Verdana, Helvetica, Arial, sans-serif;
+  }
+
+/* 导航 */
+nav {
+    background-color: #efe5d0;
+    margin:           10px 10px 0px 10px;
+    font-size:        120%;
+    text-align:       center;
+}
+
+nav ul {
+    margin:           0px;
+    list-style-type:  none;
+    padding:          5px 0px 5px 0px;
+}
+
+nav ul li {
+    display:          inline;
+    padding:          5px 10px 5px 10px;
+    vertical-align:   center;
+}
+
+/* 页眉 */
+#header {
+    background-color: #986f95;
+    color:            #efe5d0;
+    text-align:       center;
+    padding:          15px;
+    margin:           10px;
+    font-size:        150%;
+    font-style:       italic;
+  }
+
+/* 边栏 */
+#sidebar {
+    background:       url(./晓南湖睡莲.jpg);
+    color:            #edabab;
+    text-align:       center;
+    font-size:        120%;
+    padding:          15px;
+    margin:           0px 10px 10px 10px;
+  }
+
+#main1,#main2,#main3,#main4 {
+    background:       #986f95;
+    font-size:        100%;
+    font-family:      'Courier New', Courier, monospace;
+    color:            #efe5d0;
+    padding:          15px;
+    margin:           0px 10px 10px 10px;
+  }
+  
+/* 页脚 */
+#footer {
+    background-color: #986f95;
+    color:            #efe5d0;
+    text-align:       center;
+    padding:          10px;
+    margin:           10px;
+    font-size:        120%;
+    font-style:       italic;
+  }
+
+h1,h2,h3,h4 {
+    font-size:        120%;
+    color:            #edabab;
+    font-style:       italic;
+    text-align:       center;
+  } 
+
+img{
+    position:         relative;
+	  left:             50%;
+	  transform:        translate(-50%);
+  }
+
+/* 表格 */
+table {
+    margin-left:      20px;
+    margin-right:     20px;
+    margin-bottom:    10px;
+    border:           thin solid black;
+    caption-side:     top;
+    border-collapse:  collapse;
+    position:         relative;
+	  left:             50%;
+    transform:        translate(-50%);
+  }
+  
+table table th {
+    background-color: rgb(125, 14, 14);
+  } 
+  
+td, th {
+    border:           thin dotted gray;
+    padding:          5px;
+  }
+  
+th {
+    background-color: #986f95;
+  }

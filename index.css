@@ -1,0 +1,94 @@
+/* 全局 */
+body { 
+    background-color: #ebc714;
+    font-family:      Georgia, "Times New Roman", Times, serif;
+    font-size:        small;
+    margin:           0px;
+  }
+
+/* 页眉 */
+#header {
+    background-color: #efe5d0;
+    color:            #954b4b;
+    text-align:       center;
+    padding:          15px;
+    margin:           10px;
+    font-size:        150%;
+    font-style:       italic;
+  }
+
+/* 边栏 */
+#sidebar {
+    background:       url(./微笑.jpg) right;
+    color:            #edabab;
+    text-align:       center;
+    font-size:        120%;
+    padding:          15px;
+    margin:           10px 10px 10px 10px;
+  }
+
+/* 主内容 */
+div#main {
+	display:            table;
+	border-spacing:     10px;
+}
+
+section#main {
+    display:          table-cell;
+    background:       #efe5d0;
+    font-size:        110%;
+    padding:          15px;
+    vertical-align:   top;
+    line-height:      22px;
+  }
+  
+aside {
+    display:          table-cell;
+    background:       #efe5d0;
+    font-size:        110%;
+    padding:          15px;
+    vertical-align:   top;
+    line-height:      18px;
+  }
+  
+/* 页脚 */
+#footer {
+    background-color: #efe5d0;
+    color:            #954b4b;
+    text-align:       center;
+    padding:          15px;
+    margin:           0px 10px 10px 10px;
+    font-size:        120%;
+    line-height:      20px;
+  }
+  
+h1,h2 {
+    font-size:        120%;
+    color:            #954b4b;
+  }
+  
+a:link {
+    color:            #b76666;
+    text-decoration:  none;
+    border-bottom:    thin dotted #b76666;
+  }
+
+/* 导航 */
+nav {
+    background-color: #efe5d0;
+    margin:           10px 10px 0px 10px;
+    font-size:        120%;
+    text-align:       center;
+}
+
+nav ul {
+    margin:           0px;
+    list-style-type:  none;
+    padding:          5px 0px 5px 0px;
+}
+
+nav ul li {
+    display:          inline;
+    padding:          5px 10px 5px 10px;
+    vertical-align:   center;
+}

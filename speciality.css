@@ -1,0 +1,74 @@
+/* 页眉 */
+#header {
+    background-color: #72a4a9;
+    color:            #efe5d0;
+    text-align:       center;
+    padding:          15px;
+    margin:           10px;
+    font-size:        150%;
+    font-style:       italic;
+  }
+
+/* 导航 */
+nav {
+    background-color: #efe5d0;
+    margin:           10px 10px 0px 10px;
+    font-size:        120%;
+    text-align:       center;
+  }
+  
+nav ul {
+    margin:           0px;
+    list-style-type:  none;
+    padding:          5px 0px 5px 0px;
+  }
+  
+nav ul li {
+    display:          inline;
+    padding:          5px 10px 5px 10px;
+    vertical-align:   center;
+  }
+
+/* 边栏 */
+#sidebar {
+    background:       url(./hai.jpg);
+    color:            #edabab;
+    text-align:       center;
+    font-size:        120%;
+    padding:          15px;
+    margin:           0px 10px 10px 10px;
+  }
+
+h1,h2,h3,h4,h5 {
+    font-size:        120%;
+    color:            #edabab;
+    font-style:       italic;
+    text-align:       center;
+  } 
+
+img{
+    position: relative;
+	  left: 50%;
+	  transform: translate(-50%);
+  }
+
+/* 内容 */
+#main1,#main2,#main3,#main4,#main5 {
+    background:       #72a4a9;
+    font-size:        100%;
+    font-family:      'Courier New', Courier, monospace;
+    color:            #efe5d0;
+    padding:          15px;
+    margin:           0px 10px 10px 10px;
+  } 
+
+/* 页脚 */
+#footer {
+    background-color: #72a4a9;
+    color:            #efe5d0;
+    text-align:       center;
+    padding:          10px;
+    margin:           10px;
+    font-size:        120%;
+    font-style:       italic;
+  }
